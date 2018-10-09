@@ -5,7 +5,6 @@
  */
 import javax.swing.*;
 import java.awt.*;
-import login.signup;
 
 /**
  *
@@ -160,6 +159,10 @@ public class login extends javax.swing.JFrame {
         {
             txtfld.setText(null);
             pwd.setText(null);
+            
+            signup sign= new signup();
+            sign.setVisible(true);
+            
        
         };
     }//GEN-LAST:event_signinActionPerformed

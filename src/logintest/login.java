@@ -1,3 +1,5 @@
+package logintest;
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -5,6 +7,7 @@
  */
 import javax.swing.*;
 import java.awt.*;
+import logintest.signup;
 
 /**
  *
@@ -159,6 +162,7 @@ public class login extends javax.swing.JFrame {
         {
             txtfld.setText(null);
             pwd.setText(null);
+            
             
             signup sign= new signup();
             sign.setVisible(true);
